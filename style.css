@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.navbar{
+    background-image: url("./images/poster-pizza.png");
+    min-height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    padding-top: 40px;
+    font-size: xx-large;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0);
+    height: 70px;
+    /* position: fixed; */
+}
+.home{
+    position: absolute;
+    left: 250px;
+}
+.home:hover{
+    color: #EA6E19;
+    transform: scale(1.2);
+}
+.deals{
+    position: absolute;
+    left: 450px;
+}
+.deals:hover{
+    color: #EA6E19;
+    transform: scale(1.2);
+}
+.pizza{
+    position: absolute;
+    left: 650px;
+}
+.pizza:hover{
+    color: #EA6E19;
+    transform: scale(1.2);
+}
+.burger{
+    position: absolute;
+    left: 850px;
+}
+.burger:hover{
+    color: #EA6E19;
+    transform: scale(1.2);
+}
+.drinks{
+    position: absolute;
+    left: 1050px;
+}
+.drinks:hover{
+    color: #EA6E19;
+    transform: scale(1.2);
+}
+.dessert{
+    position: absolute;
+    left: 1250px;
+}
+.dessert:hover{
+    color: #EA6E19;
+    transform: scale(1.2);
+}
+.search{
+    position: absolute;
+    left: 1500px;
+}
+.search:hover{
+    color: #EA6E19;
+    transform: scale(1.2);
+}
+.cart{
+    position: absolute;
+    left: 1650px;
+}
+.cart:hover{
+    color: #EA6E19;
+    transform: scale(1.2);
+}
+.btn button{
+    margin-top: 750px;
+    margin-left: 150px;
+    width: 500px;
+    height: 70px;
+    background-color: #EA6E19;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    font-size: x-large;
+    font-family: "Josefin Sans", sans-serif;
+}
+.btn button:hover{
+    background-color: whitesmoke;
+    color: #EA6E19;
+    transform: scale(1.2);
+}
+.anime{
+    opacity: 0;
+    transform: translateY(40px);
+    animation: move 1s linear forwards;
+}
+@keyframes move{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.main{
+    background-color: #EA6E19;
+    height: 1300px;
+}
+.name label{
+    font-size: 50px;
+    position: absolute;
+    left: 860px;
+    top: 1050px;
+    color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 150px;
+    text-align: center;
+}
+.box1{
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.box1:hover{
+   transform: scale(1.1);
+   transition: 0.3s;
+   box-shadow: 0.2px 0.2px 5px #000000;
+}
+.box2{
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.box2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0.2px 0.2px 5px #000000;
+ }
+.box3{
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.box3:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0.2px 0.2px 5px #000000;
+ }
+.box4{
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.box4:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0.2px 0.2px 5px #000000;
+ }
+.box5{
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.box5:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0.2px 0.2px 5px #000000;
+ }
+.box6{
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.box6:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0.2px 0.2px 5px #000000;
+ }
+.box7{
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.box7:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0.2px 0.2px 5px #000000;
+ }
+.box8{
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.box8:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0.2px 0.2px 5px #000000;
+ }
+.box label{
+    color: #EA6E19;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.box p{
+    font-size: medium;
+    font-family: "Poppins", sans-serif;
+}
+pre{
+    font-size: x-large;
+    font-family: "Josefin Sans", sans-serif;
+    color: #EA6E19;
+}
+img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.reviews{
+    background-image: url("./images/Food\ Sale\ Poster\ \(Landscape\).png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+}
+.head{
+    text-align: center;
+}
+.head label{
+    color: #EA6E19;
+font-size: 50px;
+position: absolute;
+top: 2400px;
+left: 700px;
+font-family: "Poppins", sans-serif;
+}
+.people{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    height: 800px;
+}
+.one{
+    background-color: antiquewhite;
+    color: #EA6E19;
+    width: 500px;
+    height: 350px;
+}
+.one p{
+    font-family: "Poppins",sans-serif;
+    font-size: larger;
+    padding: 5px;
+    padding-left: 20px;
+}
+.two{
+    background-color: antiquewhite;
+    color: #EA6E19;
+    width: 500px;
+    height: 350px;
+}
+.two p{
+    font-family: "Poppins",sans-serif;
+    font-size: larger;
+    padding: 5px;
+    padding-left: 20px;
+}
+.boy{
+    background-color: rgba(0, 0, 0, 0);
+    height: 300px;
+    width: 1000px;
+    position: absolute;
+    left: 500px;
+    top: 2900px;
+}
+.table{
+    background-image: url("./images/table.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    /* background-color: rgba(0, 0, 0, 0.421); */
+    background-color: rgba(250, 235, 215, 0.453);
+}
+input{
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: azure;
+    color: #EA6E19;
+    padding-left: 5px;
+}
+.container button{
+    width: 300px;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #00000063;
+    color: whitesmoke;
+    border: none;
+}
+.container p{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+}
+.container:hover{   
+    transition: 1;
+    transform: scale(1.3);
+}
